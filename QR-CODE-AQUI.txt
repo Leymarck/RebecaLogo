@@ -1,0 +1,1 @@
+Depois de publicar a página, gere um QR Code da URL pública e salve-o aqui como qr-mobile.png.

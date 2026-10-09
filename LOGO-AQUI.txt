@@ -1,0 +1,1 @@
+Coloque a logo final nesta pasta como logo.png. Depois edite os espaços reservados no index.html.

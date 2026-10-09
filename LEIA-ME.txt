@@ -1,0 +1,22 @@
+# Página de links — Rebeca Alcantara
+
+## Arquivos
+- `index.html`: estrutura e textos.
+- `style.css`: identidade visual, layout responsivo e QR fixo no canto inferior direito.
+- `script.js`: contatos/URLs que você pode editar.
+- `assets/logo.png`: coloque aqui a logo final (opcional; os espaços de logo estão marcados no HTML).
+- `assets/qr-mobile.png`: coloque aqui o QR Code que aponta para a URL pública desta página.
+
+## Personalização rápida
+Abra `script.js` e atualize o objeto `CONFIG` com WhatsApp, Instagram, e-mail, escola, projetos e localização.
+No WhatsApp, use `https://wa.me/55DDDNUMERO`, somente números e com código do país.
+No `index.html`, procure por `LOGO` e substitua os espaços reservados por uma imagem, por exemplo:
+`<img src="assets/logo.png" alt="Logo da Rebeca">`
+Ajuste o tamanho dessa imagem em `style.css`.
+
+## QR Code
+O QR precisa apontar para a URL publicada (por exemplo, a URL do site no Netlify/GitHub Pages), não para um caminho local. Gere o QR depois de publicar, salve a imagem como `assets/qr-mobile.png` e o espaço fixo no canto inferior direito exibirá a imagem automaticamente.
+A página é responsiva: no celular o QR fica menor e não cobre o conteúdo principal.
+
+## Como testar
+Abra `index.html` no navegador. Para compartilhar com outras pessoas, publique a pasta em um serviço de hospedagem estática.
